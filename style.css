@@ -155,4 +155,9 @@ form button{
 
     text-transform: uppercase;
     color: #FFFFFF;
+    transition: background 200ms;
+}
+
+button:hover{
+    background: #523dbe;
 }
