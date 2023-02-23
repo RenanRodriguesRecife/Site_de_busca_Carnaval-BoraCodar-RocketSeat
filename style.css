@@ -192,14 +192,14 @@ select{
     color: #858793;
 }
 
-form button{
+form button.btn{
     
-    padding: 12px 32px;
+    padding: 1.2rem 3.2rem;
     color: #FFFFFF;
     
 }
 
-main .content{
+main > .content{
     max-width: 121.6rem;
     margin: 10rem auto;
 }
@@ -215,4 +215,49 @@ section.top .view{
     padding: 8px;
     border: 1px solid #eaeaea;
     border-radius: 6px;
+}
+
+section.cards{
+    margin-top: 4rem;
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    background: #FFFFFF;
+    border: 1px solid #eaeaea;
+    border-radius: 1px;
+
+    max-width: 38.4rem;
+    overflow: hidden;
+}
+
+.card .content{
+    display: grid;
+    gap: 1.6rem;
+    padding: 1.6rem;
+}
+
+.card h3{
+    color: #121214;
+    font-size: 2.0rem;
+    line-height: 140%;
+}
+
+.card p{
+    opacity: 0.75;
+}
+
+.card .location{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    opacity: .75;
+}
+
+.location i {
+    color:#e45858;
+    font-size: 2.4rem;
+    opacity: .75;
 }
